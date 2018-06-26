@@ -63,8 +63,8 @@ img:hover{
     align-items: center;
 }
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+/* Large devices (desktops, 900 px and up) */
+@media (min-width: 900px) {
 
 /* topo */
 
@@ -345,7 +345,7 @@ footer{
 }
 }
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) and (max-width: 990px) {
+@media (min-width: 768px) and (max-width: 899px) {
 
     /* Topo  */
 
@@ -621,7 +621,7 @@ footer{
 }
 
 /* Small devices */
-@media (min-width: 320px) and (max-width: 750px){
+@media (min-width: 320px) and (max-width: 767px){
 
     #principal{
         width: 100vw;
