@@ -24,9 +24,16 @@ function scrollFunction() {
 // Mapa
 var btn = document.getElementById("btn");
 var map = document.getElementById("map");
-
-console.log(btn);
+var cadastro = document.getElementById("cadastro");
+var vantagens = document.getElementById("vantagens");
 
 btn.addEventListener('click', function(e){
     map.classList.toggle('map-none');
+})
+
+cadastro.addEventListener('click', function(e){
+    map.className = "map-none"
+})
+vantagens.addEventListener('click', function(e){
+    map.className = "map-none"
 })
