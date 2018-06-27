@@ -1,19 +1,22 @@
-// Ativar fadeIn Passos
+//fadeIn Passos
 var displayPassos = document.getElementById('passos-aling');
 var passos = document.getElementById('passos');
 
-passos.addEventListener("mouseover", function(){
-    displayPassos.id= 'block';
-    displayPassos.classList.remove("none");
-    displayPassos.classList.add("fadeIn");
-})
-
-// Ativar fade in Vantagens
+//fade in Vantagens
 var displayVantagens = document.getElementById("vantagens-itens");
 var vantagens = document.getElementById("vantagens");
 
-vantagens.addEventListener("mouseover", function(){
-    displayVantagens.id= 'block';
-    displayVantagens.classList.remove("none");
-    displayVantagens.classList.add("fadeIn");
-})
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        displayPassos.id = 'block';
+        displayPassos.classList.remove("none");
+        displayPassos.classList.add("fadeIn");
+    }
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        displayVantagens.id = 'block';
+        displayVantagens.classList.remove("none");
+        displayVantagens.classList.add("fadeIn");
+    }
+}
