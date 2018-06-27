@@ -48,8 +48,11 @@ button{
 
 button:hover{
     opacity: 0.7;
-    transition-delay: 100ms;  
     cursor: pointer;
+    -webkit-transition: 0.3s ease-in;
+    -moz-transition: 0.3s ease-in;
+    -o-transition: 0.3s ease-in;
+    transition: 0.3s ease-in;
 }
 
 img:hover{
@@ -75,7 +78,6 @@ img:hover{
     }
 
     .fadeIn {
-        display: block;
         -webkit-animation: fadeIn 2s ease-in-out;
         -moz-animation: fadeIn 2s ease-in-out;
         -o-animation: fadeIn 2s ease-in-out;
@@ -249,7 +251,12 @@ a:link, a:visited{
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
      transform: scale(1.3);
+     -webkit-transition: 0.5s ease-in;
+     -moz-transition: 0.5s ease-in;
+     -o-transition: 0.5s ease-in;
+     transition: 0.5s ease-in;
 }
+
 
 #vantagens p{
     font-size: 13px;
