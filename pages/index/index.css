@@ -83,13 +83,13 @@ img:hover{
         animation: fadeIn 2s ease-in-out;
         }
 
-        .block{
-            visibility: visible;
-        }
+    .block{
+        visibility: visible;
+    }
         
-        .none{
-            visibility: hidden;
-        }
+    .none{
+        visibility: hidden;
+    }
     
 /*Todo Conteúdo */
 #principal{
@@ -102,278 +102,278 @@ img:hover{
 /* Large devices (desktops, 900 px and up) */
 @media (min-width: 900px) {
 
-/* topo */
-#top{
-    margin: 0px 250px 0px 250px;
-    padding: 5px  5px ;
-    align-items: center;
-    justify-content: space-between;
-    height: 125px;
-    
-}
+    /* topo */
+    #top{
+        margin: 0px 250px 0px 250px;
+        padding: 5px  5px ;
+        align-items: center;
+        justify-content: space-between;
+        height: 125px;
 
-#top p{
-    margin-left: 15px;
-}
+    }
 
-#top button{
-    text-align: center;
-    width: 115px;
-    height: 28px;
-    font-size: 15px;
-    font-weight: bold;
-}
+    #top p{
+        margin-left: 15px;
+    }
 
-a:link, a:visited{
-    color: #dd292c;
-}
+    #top button{
+        text-align: center;
+        width: 115px;
+        height: 28px;
+        font-size: 15px;
+        font-weight: bold;
+    }
 
-#logo-1 img{
-    height: 100px;
-    width: 170px;
-}
+    a:link, a:visited{
+        color: #dd292c;
+    }
 
-/* banner */
-#banner-cont{
-    position: relative;
-    -webkit-animation: mymove; /* Safari 4.0 - 8.0 */
-    animation: mymove 1s;
-    animation-timing-function: linear;
-    padding: 50px 0px 0px 0px;
-    margin: 0px 0px 0px 400px;
-    width: 300px;
-    color: #ffffff;
-}
-@keyframes mymove {
-    from {right: -800px;}
-    to {right: 0px;}
-}
+    #logo-1 img{
+        height: 100px;
+        width: 170px;
+    }
 
-#banner{
-    justify-content: flex-start;
-    background-image: url("../../assets/img/banner.jpg");
-    height: 300px;
-    background-size: cover;
-    background-position: center; 
-}
+    /* banner */
+    #banner-cont{
+        position: relative;
+        -webkit-animation: mymove; /* Safari 4.0 - 8.0 */
+        animation: mymove 1s;
+        animation-timing-function: linear;
+        padding: 50px 0px 0px 0px;
+        margin: 0px 0px 0px 400px;
+        width: 300px;
+        color: #ffffff;
+    }
+    @keyframes mymove {
+        from {right: -800px;}
+        to {right: 0px;}
+    }
 
-#banner p{
-    margin-top: 15px;
-    width: 270px;
-}
+    #banner{
+        justify-content: flex-start;
+        background-image: url("../../assets/img/banner.jpg");
+        height: 300px;
+        background-size: cover;
+        background-position: center; 
+    }
 
-#banner button{
-    font-size: 12px;
-    font-weight: bold;
-    background-color: #242424;
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
-    margin-top: 10px;
-}
+    #banner p{
+        margin-top: 15px;
+        width: 270px;
+    }
+
+    #banner button{
+        font-size: 12px;
+        font-weight: bold;
+        background-color: #242424;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
 
 
-/* Passos */
-#passos{
-    background-color:#ffffff;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    /* Passos */
+    #passos{
+        background-color:#ffffff;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-#passos h3{
-    margin-bottom: 0px;
-}
+    #passos h3{
+        margin-bottom: 0px;
+    }
 
-.row ul{
-    width: 100%;
-    box-sizing: none;
-}
+    .row ul{
+        width: 100%;
+        box-sizing: none;
+    }
 
-#passos-aling{
-    padding: 0px;
-    width: 700px;
-    justify-content: center;
-    align-items: center;
-}
+    #passos-aling{
+        padding: 0px;
+        width: 700px;
+        justify-content: center;
+        align-items: center;
+    }
 
-#passo-margin ul{
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
+    #passo-margin ul{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
 
-.passos-img img{
-    height: 150px !important;
-    width: 120px !important; 
-} 
+    .passos-img img{
+        height: 150px !important;
+        width: 120px !important; 
+    } 
 
-.passos-itens{
-    padding: 0px 100px 0px 50px;
-    width: 130px;
-    height: 200px;;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    .passos-itens{
+        padding: 0px 100px 0px 50px;
+        width: 130px;
+        height: 200px;;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-/* Vantagens */
-#vantagens{
-    background-color:#f0f0f0 ;
-    height: 270px;
-}
+    /* Vantagens */
+    #vantagens{
+        background-color:#f0f0f0 ;
+        height: 270px;
+    }
 
-#vantagens-itens{
-    padding: 0px;
-}
+    #vantagens-itens{   
+        padding: 0px;
+    }
 
-#vatagens-alingn{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    #vatagens-alingn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-#vantagens li{
-    padding-left: 12px;
-    width: 150px;
-}
+    #vantagens li{
+        padding-left: 12px;
+        width: 150px;
+    }
 
-#vantagens li:hover{
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-     transform: scale(1.3);
-     -webkit-transition: 0.5s ease-in;
-     -moz-transition: 0.5s ease-in;
-     -o-transition: 0.5s ease-in;
-     transition: 0.5s ease-in;
-}
+    #vantagens li:hover{    
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+         transform: scale(1.3);
+         -webkit-transition: 0.5s ease-in;
+         -moz-transition: 0.5s ease-in;
+         -o-transition: 0.5s ease-in;
+         transition: 0.5s ease-in;
+    }
 
-#vantagens p{
-    font-size: 13px;
-}
+    #vantagens p{
+        font-size: 13px;
+    }
 
-#vantagens h4{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+    #vantagens h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 
-.padding-page img{
-    width: 60px;
-    height: 60px;
-}
+    .padding-page img{
+        width: 60px;
+        height: 60px;
+    }
 
-.padding-page h3{
-    margin-top: 35px;
-    margin-bottom: 35px;
-}
+    .padding-page h3{
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
 
-.padding-page li{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+    .padding-page li{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
-/* Cadastro */
-#cadastro{
-    background-color: #242424;
-    height: 280px;
-    color: #ffffff;
-    align-items: center;
-    justify-content: center;
-}
+    /* Cadastro */
+    #cadastro{
+        background-color: #242424;
+        height: 280px;
+        color: #ffffff;
+        align-items: center;
+        justify-content: center;
+    }
 
-#cadastro h3{
-    margin: 0px;
-}
+    #cadastro h3{
+        margin: 0px;
+    }
 
-#cadastro p{
-    font-size: 14px;
-    margin-bottom: 15px;
-    margin-top: 5px;
-}   
+    #cadastro p{
+        font-size: 14px;
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }   
 
-.padding-page input{
-    margin: 5px;
-}
+    .padding-page input{
+        margin: 5px;
+    }
 
-#cadastro input{
-    height: 25px;
-}
+    #cadastro input{
+        height: 25px;
+    }
 
-#cadastro button{
-    margin-top: 10px;
-    height: 25px;
-    width: 100px;
-    font-size: 14px;
-    font-weight: bold;
-}
+    #cadastro button{
+        margin-top: 10px;
+        height: 25px;
+        width: 100px;
+        font-size: 14px;
+        font-weight: bold;
+    }
 
-#cadastro select{
-    width: 250px;
-    height: 28px;
-    margin-right: 5px;
-}
+    #cadastro select{
+        width: 250px;
+        height: 28px;
+        margin-right: 5px;
+    }
 
-#person-type{
-    justify-content: center;
-    align-items: center;
-    padding-left: 5px;
+    #person-type{
+        justify-content: center;
+        align-items: center;
+        padding-left: 5px;
 
-}
+    }
 
-#cadastro-input{
-    justify-content: center;
-    align-items: center;
-}
+    #cadastro-input{    
+        justify-content: center;
+        align-items: center;
+    }
 
-form input:nth-child(1){
-    width: 250px;
-}
+    form input:nth-child(1){
+        width: 250px;
+    }
 
-form input:nth-child(2){
-    width: 250px;
-}
+    form input:nth-child(2){
+        width: 250px;
+    }
 
-#email{
-    width: 510px;
-}
+    #email{
+        width: 510px;
+    }
 
-#name-full {
-    width: 510px;
-}
+    #name-full {
+        width: 510px;
+    }
 
-/* Rodapé */
-footer{
-    height: 150px;
-    align-items: center;
-    justify-content: center;
-}
+    /* Rodapé */
+    footer{
+        height: 150px;
+        align-items: center;
+        justify-content: center;
+    }
 
-#footer{
-    width: 800px;
-    padding: 0px;
-    justify-content: space-around;
-    align-items: center;
-}
+    #footer{
+        width: 800px;
+        padding: 0px;
+        justify-content: space-around;
+        align-items: center;
+    }
 
-#footer img{
-    width: 100px;
-}
+    #footer img{
+        width: 100px;
+    }
 
-#footer p {
-    width: 250px;
-    font-size: 9px;
-}
+    #footer p {
+        width: 250px;
+        font-size: 9px;
+    }
 
-#footer button{
-    font-size: 13px;
-    height: 25px;
-    margin-left: 200px;
-}
+    #footer button{
+        font-size: 13px;
+        height: 25px;
+        margin-left: 200px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -598,28 +598,28 @@ footer{
         align-items: center;
         padding-left: 5px;
 
-}
+    }
 
     #cadastro-input{
         justify-content: center;
         align-items: center;
-}
+    }
 
     form input:nth-child(1){
         width: 250px;
-}
+    }
 
     form input:nth-child(2){
         width: 250px;
-}
+    }
 
     #email{
         width: 510px;
-}
+    }
 
     #name-full {
         width: 510px;
-}
+    }
 
     /* Rodapé */
     footer{
@@ -911,7 +911,7 @@ footer{
         align-items: center;
         padding-left: 5px;
 
-}
+    }
 
     #contato{
         flex-direction: column;
@@ -922,11 +922,11 @@ footer{
 
     form input:nth-child(1){
         width: 200px;;
-}
+    }
 
     form input:nth-child(2){
         width: 190px;
-}
+    }
 
     #tel, #cel{
         width: 300px;
@@ -934,11 +934,11 @@ footer{
 
     #email{
         width: 300px;
-}
+    }
 
     #name-full {
         width: 300px;
-}
+    }
 
     /* Rodapé */
     footer{
@@ -970,6 +970,5 @@ footer{
         font-size: 13px;
         width: 250px;
         height: 30px;
-        
     }
 }
