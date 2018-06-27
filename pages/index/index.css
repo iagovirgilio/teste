@@ -374,6 +374,24 @@ img:hover{
         height: 25px;
         margin-left: 200px;
     }
+
+    #map{
+        position: absolute;
+        top:930px;
+        border:0;
+    }
+
+    #map iframe{
+        width:900px; 
+        height:450px ;
+    }
+
+    .map-none{
+        display: none;
+    }
+    .map-block{
+        display: block;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -648,6 +666,23 @@ img:hover{
         font-size: 10px;
         height: 20px;
         
+    }
+    .map-none{
+        display: none;
+    }
+    .map-block{
+        display: block;
+    }
+
+    #map{
+        position: absolute;
+        top:930px;
+        border:0;
+    }
+
+    #map iframe{
+        width:600px; 
+        height:450px ;
     }
 }
 
@@ -969,5 +1004,22 @@ img:hover{
         font-size: 13px;
         width: 250px;
         height: 30px;
+    }
+    .map-none{
+        display: none;
+    }
+    .map-block{
+        display: block;
+    }
+
+    #map{
+        position: absolute;
+        top:2400px;
+        border:0;
+    }
+
+    #map iframe{
+        width:300px; 
+        height:300px ;
     }
 }

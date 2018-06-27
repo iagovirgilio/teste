@@ -20,3 +20,13 @@ function scrollFunction() {
         displayVantagens.classList.add("fadeIn");
     }
 }
+
+// Mapa
+var btn = document.getElementById("btn");
+var map = document.getElementById("map");
+
+console.log(btn);
+
+btn.addEventListener('click', function(e){
+    map.classList.toggle('map-none');
+})
