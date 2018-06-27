@@ -126,17 +126,17 @@
                     <h3>Faça seu cadastro!</h3>
                     <p>Depois de conhecer todas as vantagens de cadastrar-se, é hora de dar início.</p>
                     <div class="row" id="person-type">
-                        <select type="text">
-                            <option value="fisica">Pessoa Física</option>
-                            <option value="juridica">Pessoa Jurídica</option>
+                        <select id="person-mode" type="text">
+                            <option id="cpf" value="fisica">Pessoa Física</option>
+                            <option id="cnpj" value="juridica">Pessoa Jurídica</option>
                         </select>
-                        <input type="text" placeholder="CPF ou CNPJ">
+                        <input id="cpf-cnpj" type="text" name="cpf" placeholder="CPF ou CNPJ">
                     </div>
-                    <input id="name-full" type="text" placeholder="Nome Completo">
+                    <input id="name-full" type="text" name="nome" placeholder="Nome Completo">
                     <input id="email" type="email" name="email" placeholder="Email">
                     <div id="contato" class="row">
-                        <input id="tel" type="tel" placeholder="Telefone">
-                        <input id="cel" type="tel" placeholder="Celular">
+                        <input id="tel" type="tel" name="telefone" placeholder="Telefone">
+                        <input id="cel" type="tel" name="celular" placeholder="Celular">
                     </div>
 
                     <button>ENVIAR</button>
@@ -156,6 +156,9 @@
     </div>
 
     <script src="index.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="jquery.mask.min.js"></script>
+    <script src="mask.js"></script>
 </body>
 
 </html>
