@@ -47,6 +47,8 @@ button{
 }
 
 button:hover{
+    opacity: 0.7;
+    transition-delay: 100ms;  
     cursor: pointer;
 }
 
@@ -54,7 +56,42 @@ img:hover{
     cursor: pointer;
 }
 
+/* Efeito fade-in */
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+
+    .fadeIn {
+        display: block;
+        -webkit-animation: fadeIn 2s ease-in-out;
+        -moz-animation: fadeIn 2s ease-in-out;
+        -o-animation: fadeIn 2s ease-in-out;
+        animation: fadeIn 2s ease-in-out;
+        }
+
+    
 /*Todo Conteúdo */
+
+.block{
+    visibility: visible;
+}
+
+.none{
+    visibility: hidden;
+}
 
 #principal{
     display: flex;
@@ -89,11 +126,6 @@ img:hover{
     font-weight: bold;
 }
 
-#top button:hover{
-    opacity: 0.5;
-    transition-delay: 100ms;    
-}
-
 a:link, a:visited{
     color: #dd292c;
 }
@@ -107,7 +139,7 @@ a:link, a:visited{
 #banner-cont{
     position: relative;
     -webkit-animation: mymove; /* Safari 4.0 - 8.0 */
-    animation: mymove 0.5s;
+    animation: mymove 1s;
     animation-timing-function: linear;
     padding: 50px 0px 0px 0px;
     margin: 0px 0px 0px 400px;
@@ -116,7 +148,7 @@ a:link, a:visited{
 }
 @keyframes mymove {
     from {right: -800px;}
-    to {right: 50px;}
+    to {right: 0px;}
 }
 
 #banner{
@@ -764,7 +796,7 @@ footer{
     /* Vantagens */
     #vantagens{
         background-color:#f0f0f0 ;
-        height: 920px;
+        height: 800px;
     }
     
     #vantagens-itens{
@@ -773,7 +805,7 @@ footer{
     
     #vatagens-alingn{
         display: flex;
-        /* flex-direction: column; */
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
