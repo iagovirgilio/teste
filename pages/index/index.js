@@ -5,7 +5,7 @@ var passos = document.getElementById('passos');
 passos.addEventListener("mouseover", function(){
     displayPassos.id= 'block';
     displayPassos.classList.remove("none");
-    displayPassos.className='fadeIn';
+    displayPassos.classList.add("fadeIn");
 })
 
 // Ativar fade in Vantagens
@@ -14,7 +14,6 @@ var vantagens = document.getElementById("vantagens");
 
 vantagens.addEventListener("mouseover", function(){
     displayVantagens.id= 'block';
-    displayVantagens.classList.add("fadeIn");
     displayVantagens.classList.remove("none");
-    
+    displayVantagens.classList.add("fadeIn");
 })
