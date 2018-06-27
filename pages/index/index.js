@@ -27,13 +27,13 @@ var map = document.getElementById("map");
 var cadastro = document.getElementById("cadastro");
 var vantagens = document.getElementById("vantagens");
 
-btn.addEventListener('click', function(e){
+btn.addEventListener('click', function (e) {
     map.classList.toggle('map-none');
 })
 
-cadastro.addEventListener('click', function(e){
+cadastro.addEventListener('click', function (e) {
     map.className = "map-none"
 })
-vantagens.addEventListener('click', function(e){
+vantagens.addEventListener('click', function (e) {
     map.className = "map-none"
 })
